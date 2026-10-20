@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "diky.mouse",
+  "name": "Logitech Mouse",
+  "version": "1.1.0",
+  "author": "diky",
+  "description": "Desktop controls for the Logitech ERGO M575S with a live button diagram",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Logitech Mouse",
+    "description": "Pointer speed, scrolling and per-mouse buttons",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
